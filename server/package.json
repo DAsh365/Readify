@@ -1,0 +1,23 @@
+{
+  "name": "readify",
+  "version": "1.0.0",
+  "description": "This Project involves refactoring a MERN stack book search engine to use GraphQL with Apollo Server instead of a RESTful API, including modifying the authentication middleware, creating an Apollo Provider for the front end, and deploying the application to Render with MongoDB Atlas.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Devan Ash",
+  "license": "MIT",
+  "dependencies": {
+    "@apollo/server": "^4.7.1",
+    "bcrypt": "^4.0.1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^7.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
